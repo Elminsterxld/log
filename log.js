@@ -1,3 +1,6 @@
+const fs = require('fs');
+const chalk = require('chalk');
+
 class Log {
     static getCurrentTime() {
         const date = new Date();
